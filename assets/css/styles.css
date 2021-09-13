@@ -93,9 +93,8 @@ body.dark-theme {
 	align-items: center;
 	overflow: visible;
 	height: 3rem;
-	font-size: var(--small-font-size);
 	color: var(--title-color);
-	margin-right: var(--mb-1);
+	margin-right: .15rem;
 }
 
 .languages {
@@ -103,6 +102,7 @@ body.dark-theme {
 	align-items: center;
 	margin-right: var(--mb-0-75);
 	font-weight: var(--font-medium);
+	font-size: var(--smaller-font-size);
 	cursor: pointer;
 }
 
@@ -222,7 +222,7 @@ img {
 
 /*========== NAV ===========*/
 .nav {
-	max-width: 100vw;
+	max-width: 100%;
 	height: var(--header-height);
 	display: flex;
 	justify-content: space-between;
