@@ -222,7 +222,7 @@ img {
 
 /*========== NAV ===========*/
 .nav {
-	max-width: 100%;
+	max-width: 100vw;
 	height: var(--header-height);
 	display: flex;
 	justify-content: space-between;
